@@ -2,6 +2,7 @@
 layout: post
 title:  Sauasage on the grill is hot chicken sausage
 date:   2017-08-13 09:13:25 +0900
+author: firekim2
 categories: firekim2 test
 ---
 
