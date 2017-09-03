@@ -47,13 +47,12 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texutre</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section1: <h1>GSSR-blog</h1>
+  section2: <h2>세명의 개쓉사리들이 하는 개쓉사리 블로그입니다.</h2>
 blog:
   cc_license: # A link to CC License of your choice, e.g. http://creativecommons.org/licenses/by-sa/4.0/.
   cc_license_image: # An image of your CC License, e.g. /assets/images/theme/cc-by-sa.png
-  footer_content: A gem-based responsive simple texture styled Jekyll theme.
+  footer_content: 세명의 개쓉사리들이 하는 개쓉사리 블로그입니다.
 
 disqus:
   shortname:
