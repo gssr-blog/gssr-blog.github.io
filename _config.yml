@@ -22,7 +22,7 @@ sass:
 
 # Site Data
 url: gssr-blog.github.io
-baseurl: # the subpath of your site, e.g. /blog
+baseurl: /blog
 title: 개쓉싸리-blog
 description: GSSR-BLOG
 keywords: 'jekyll,theme,gem-based,blog'
