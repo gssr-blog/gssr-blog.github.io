@@ -11,6 +11,15 @@
     {% include common/meta.html %}
     <link href='{{ site.baseurl }}/assets/stylesheets/home.css' rel="stylesheet" type="text/css">
     {% include common/libraries.html %}
+    
+    <style type="text/css">
+    .btn-dark{
+      text-decoration: none;
+      color : #000000;  
+    }
+
+    </style>
+
 </head>
 
 <body>
@@ -21,12 +30,16 @@
         {% include common/notices.html %}
 
         <div class="headings animated fadeInLeft">
-            {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
+           <a class="btn-dark" title="{{ site.data.i18n[site.lang].enter_blog }}" href="{{ site.paths.blog | relative_url }}">
+            {% if site.home.section1 %}{{ site.home.section1 }}{% endif %} </a>
             {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
             {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}
         </div>
  
     </div>
+
+
+
     {% include home/scripts.html %}
 </body>
 
